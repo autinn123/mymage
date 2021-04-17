@@ -1,0 +1,13 @@
+<div class="container">
+    <h2>New Book</h2>
+    <form action="/images" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="form-control" >
+          <label for="cover">Image</label>
+          <input type="file" name="cover" id="cover" class="filepond" >
+        </div>
+      <a href="/books" class="btn btn-secondary">Cancel</a>
+      <button type="submit" class="btn btn-success">Add</button>
+    </form>
+</div>

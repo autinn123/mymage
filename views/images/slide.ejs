@@ -1,0 +1,14 @@
+
+<div class="carousel-container">
+  <div class="slide">
+    <% images.forEach(image=> { %>
+      <img width="800" height="500" src="<%= image.coverImagePath %>" alt="<%= image.id %>">
+    <% }) %>
+  </div>
+</div>
+<div class="form-row text-center">
+  <div class="col-12">
+      <button id="prev" class="btn btn-success">Prev</i></button>
+      <button id="next" class="btn btn-success">Next</i></button>
+  </div>
+</div>

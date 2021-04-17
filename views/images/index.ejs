@@ -1,0 +1,15 @@
+<h1>All images</h1>
+<div class="row">
+    <% images.forEach(image => { %>
+        <div class="col-md-4">
+
+            <div class="card" style="width: 18rem;">
+                <img  src="<%= image.coverImagePath %>">
+                <div class="card-body">
+                  <h5 class="card-title"><%= image.name %> </h5>
+                </div>
+              </div>
+        </div>
+      <% }) %>
+
+</div>
