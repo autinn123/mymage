@@ -5,7 +5,6 @@ FilePond.registerPlugin(
   )
   
   FilePond.setOptions({
-    
     imageResizeTargetWidth: 800,
     imageResizeTargetHeight: 500
   })
