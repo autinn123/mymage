@@ -15,7 +15,6 @@ router.get('/', async (req, res)=> {
 router.get('/slide', async (req, res)=> {
     try {
         const images = await Image.find({})
-    
         res.render('images/slide', {images: images})
     } catch (error) {
         res.redirect('/')
